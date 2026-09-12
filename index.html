@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhilash G — Trainee Decision Scientist & ECE Engineer</title>
+  <meta name="description" content="Portfolio of Abhilash G — Trainee Decision Scientist at Mu Sigma with an Electronics & Communication Engineering background. Skilled in Azure Databricks, Medallion Architecture, Cloud Cost Optimization, IoT, and Process Automation.">
+  <meta name="author" content="Abhilash G">
+  
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans for refined modernist typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Custom Smooth Cursor -->
+  <div class="custom-cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <!-- Left Edge Vertical Metadata -->
+  <aside class="left-meta" aria-label="Page metadata">
+    <div class="meta-item meta-role">Decision Scientist</div>
+    <div class="meta-item meta-year">2026</div>
+  </aside>
+
+  <!-- Main Viewport / Container -->
+  <div class="page-wrapper">
+    <!-- Top Navigation Header -->
+    <header class="site-header" id="header">
+      <div class="header-left">
+        <a href="#hero" class="brand-signature" aria-label="Abhilash G Home">
+          <span class="brand-monogram">AG</span>
+          <span class="brand-name">Abhilash G</span>
+        </a>
+        <nav class="main-nav" aria-label="Main Navigation">
+          <ul class="nav-list">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-right">
+        <a href="https://github.com/abhilash2327" target="_blank" rel="noopener noreferrer" class="btn-github-nav" title="GitHub Profile">
+          <span>GitHub</span>
+          <span class="arrow-up-right">↗</span>
+        </a>
+        <a href="assets/Abhilash_G_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn-resume-nav" title="Open Resume PDF">
+          <span>Resume</span>
+          <span class="arrow-up-right">↗</span>
+        </a>
+        <button class="btn-book-call" id="openBookCallModal">
+          <span>Get In Touch</span>
+          <span class="arrow-up-right">↗</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- HERO SECTION (Matching Reference Layout) -->
+    <main>
+      <section class="hero-section" id="hero">
+        <!-- Left Hero Content Column -->
+        <div class="hero-content">
+          <!-- Top Stats Grounded in Resume -->
+          <div class="hero-stats">
+            <div class="stat-block">
+              <div class="stat-number">
+                <span class="counter" data-target="7.96" data-decimals="2">7.96</span>
+              </div>
+              <div class="stat-label">B.E. ECE CGPA · Sir MVIT</div>
+            </div>
+            <div class="stat-block">
+              <div class="stat-number">
+                <span class="stat-plus">+</span><span class="counter" data-target="2" data-decimals="0">2</span>
+              </div>
+              <div class="stat-label">Industry Roles · Mu Sigma & GoodEarth</div>
+            </div>
+          </div>
+
+          <!-- Massive "Hello" Title and Subtitle -->
+          <div class="hero-title-group">
+            <h1 class="hero-title">Hello</h1>
+            <p class="hero-subtitle">
+              <span class="dash">—</span> It's <span class="name-highlight">Abhilash G</span>, Trainee Decision Scientist &amp; Engineer
+            </p>
+            <div class="hero-badge-strip">
+              <a href="https://www.e3s-conferences.org/articles/e3sconf/abs/2026/10/e3sconf_ispes2026_01015/e3sconf_ispes2026_01015.html" target="_blank" rel="noopener noreferrer" class="award-pill" title="Read Published Paper at E3S Web of Conferences">
+                <span class="award-star">★</span> Best Paper Award Winner · ISPES 2026 ↗
+              </a>
+              <span class="location-pill">📍 Bengaluru, Karnataka</span>
+            </div>
+          </div>
+
+          <!-- Bottom Left Scroll Down Link -->
+          <div class="hero-footer-action">
+            <a href="#about" class="scroll-down-link" id="scrollDownBtn">
+              <span>Explore profile</span>
+              <span class="arrow-down">↓</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Hero Portrait Column (Real Image Seamlessly Integrated) -->
+        <div class="hero-media-wrapper">
+          <div class="portrait-container">
+            <!-- Exact portrait from user's image, unedited and authentic -->
+            <img src="assets/person-hero.jpg" alt="Portrait of Abhilash G" class="hero-portrait" id="heroPortrait" loading="eager" decoding="async">
+            <div class="portrait-ambient-glow" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT ME SECTION -->
+      <section class="section about-section" id="about">
+        <div class="about-grid">
+          <div class="about-lead">
+            <div class="section-tag">Profile & Background</div>
+            <h2 class="about-statement">
+              Combining big data decision science, cloud cost governance, and hardware intelligence.
+            </h2>
+            <div class="about-experience-chips">
+              <div class="chips-row">
+                <span class="chip active-chip">Mu Sigma · Decision Scientist</span>
+                <span class="chip">GoodEarth</span>
+              </div>
+              <div class="chips-row">
+                <span class="chip">B.E. Electronics &amp; Communication</span>
+                <span class="chip">Bengaluru, India</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-body">
+            <p class="lead-paragraph">
+              I am a <strong>Trainee Decision Scientist</strong> with an Electronics and Communication Engineering background from <strong>Sir M Visvesvaraya Institute of Technology</strong>, Bengaluru. My expertise spans cloud-scale data engineering, Azure Databricks analytics pipelines, and embedded IoT automation architectures.
+            </p>
+            <p>
+              I have hands-on experience designing and operating <strong>Azure Databricks Medallion Architecture</strong> to transform multi-source raw ingestion data into standardized, analytics-ready datasets. Alongside data processing, I actively drive <strong>cloud cost awareness and optimization</strong> through workload scheduling, automated compute shutdowns, and demand-responsive resource right-sizing.
+            </p>
+            <p>
+              With an interdisciplinary engineering foundation across data systems, embedded programming (ESP32, Raspberry Pi), and digital logic, I bring a continuous-learning mindset, high ownership, and structured analytical problem-solving to business process transformation and technology operations.
+            </p>
+
+            <div class="contact-quick-strip">
+              <div class="quick-contact-item">
+                <span class="qc-label">Email</span>
+                <a href="mailto:abhilashg.hdp@gmail.com" class="qc-link">abhilashg.hdp@gmail.com</a>
+              </div>
+              <div class="quick-contact-item">
+                <span class="qc-label">Phone</span>
+                <a href="tel:+917022231662" class="qc-link">+91 7022231662</a>
+              </div>
+              <div class="quick-contact-item">
+                <span class="qc-label">LinkedIn</span>
+                <a href="https://linkedin.com/in/abhilash-g-6176a125a" target="_blank" rel="noopener noreferrer" class="qc-link">abhilash-g-6176a125a ↗</a>
+              </div>
+              <div class="quick-contact-item">
+                <span class="qc-label">GitHub</span>
+                <a href="https://github.com/abhilash2327" target="_blank" rel="noopener noreferrer" class="qc-link">github.com/abhilash2327 ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE SECTION -->
+      <section class="section experience-section" id="experience">
+        <div class="section-header">
+          <div class="section-tag">Industry Track Record</div>
+          <h2 class="section-heading">Professional Experience</h2>
+          <p class="section-subtext">Enterprise data architecture, cloud efficiency engineering, and smart automation systems.</p>
+        </div>
+
+        <div class="experience-timeline">
+          <!-- Role 1: Mu Sigma -->
+          <div class="exp-card current-role">
+            <div class="exp-header">
+              <div class="exp-role-title">
+                <h3>Trainee Decision Scientist</h3>
+                <span class="company-badge">Mu Sigma</span>
+              </div>
+              <div class="exp-meta">
+                <span class="exp-period">Jul 2026 – Present</span>
+                <span class="exp-location">Bengaluru, India</span>
+              </div>
+            </div>
+            <div class="exp-body">
+              <ul class="exp-bullets">
+                <li>
+                  <strong>Azure Databricks Medallion Architecture:</strong> Engineered scalable data pipelines across Bronze, Silver, and Gold layers to transform unstructured, raw multi-source data into validated, standardized, high-integrity datasets for enterprise reporting and decision analytics.
+                </li>
+                <li>
+                  <strong>Cloud Cost Governance &amp; Efficiency:</strong> Optimized cloud data-processing expenditures through systematic resource right-sizing, automated compute shutdowns during non-peak cycles, proactive workload scheduling, and demand-based auto-scaling.
+                </li>
+                <li>
+                  <strong>Process Automation &amp; Quality:</strong> Implemented automated validation scripts and streamlined data workflows, reducing data latency and improving downstream analytics reliability.
+                </li>
+              </ul>
+              <div class="exp-tags">
+                <span class="exp-tag">Azure Databricks</span>
+                <span class="exp-tag">Medallion Architecture</span>
+                <span class="exp-tag">Cloud Cost Optimization</span>
+                <span class="exp-tag">SQL</span>
+                <span class="exp-tag">Python</span>
+                <span class="exp-tag">Data Analysis</span>
+                <span class="exp-tag">Process Automation</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 2: GoodEarth Pvt. Ltd. -->
+          <div class="exp-card">
+            <div class="exp-header">
+              <div class="exp-role-title">
+                <h3>Project Intern</h3>
+                <span class="company-badge">GoodEarth Pvt. Ltd.</span>
+              </div>
+              <div class="exp-meta">
+                <span class="exp-period">Aug 2025 – Oct 2025</span>
+                <span class="exp-location">Bengaluru, India</span>
+              </div>
+            </div>
+            <div class="exp-body">
+              <ul class="exp-bullets">
+                <li>
+                  <strong>Smart-Home Automation Architecture:</strong> Designed and deployed comprehensive smart-home automation solutions integrating diverse sensor nodes, smart devices, and centralized control platforms across residential environments.
+                </li>
+                <li>
+                  <strong>Real-Time Environmental &amp; Energy Monitoring:</strong> Implemented end-to-end monitoring solutions for power consumption, automated irrigation, and water leakage detection with live telemetry dashboards and instant alert triggers.
+                </li>
+                <li>
+                  <strong>Hardware-Software Integrations:</strong> Programmed and integrated microcontrollers and single-board computers using ESP32, Raspberry Pi, environmental sensors, and home automation control hubs.
+                </li>
+                <li>
+                  <strong>Device Provisioning &amp; Workflow Management:</strong> Supervised end-to-end device onboarding, provisioning, network connectivity, and automated event-driven rules for residential clients.
+                </li>
+              </ul>
+              <div class="exp-tags">
+                <span class="exp-tag">ESP32</span>
+                <span class="exp-tag">Raspberry Pi</span>
+                <span class="exp-tag">Home Assistant</span>
+                <span class="exp-tag">Sensors &amp; Actuators</span>
+                <span class="exp-tag">Embedded C</span>
+                <span class="exp-tag">Energy Monitoring</span>
+                <span class="exp-tag">Automation Workflows</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS & PUBLICATIONS SECTION -->
+      <section class="section projects-section" id="projects">
+        <div class="section-header">
+          <div class="section-tag">Applied Innovation &amp; Research</div>
+          <h2 class="section-heading">Featured Projects &amp; Research</h2>
+          <p class="section-subtext">Real-world systems, award-winning academic frameworks, and IoT implementations.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Card 1: Energy Monitoring -->
+          <article class="project-card">
+            <div class="project-card-header">
+              <div class="project-meta">
+                <span class="project-year">Production IoT System</span>
+                <span class="project-category">Energy &amp; Automation</span>
+              </div>
+              <h3 class="project-title">Live Energy Monitoring &amp; Automation Platform</h3>
+            </div>
+            <div class="project-card-preview">
+              <div class="preview-box p-image-box">
+                <img src="assets/energy-dashboard.png" alt="Home Assistant Live Energy Monitoring &amp; Telemetry Dashboard" class="project-card-img">
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <p class="project-summary">
+                Engineered a comprehensive live monitoring solution tracking dual-source power consumption (Grid and Diesel Generator), usage patterns, and real-time operational costs. Processed and visualized energy telemetry on Raspberry Pi using Home Assistant, establishing automated scheduling rules for optimal resource conservation.
+              </p>
+              <div class="card-tech-chips">
+                <span>Raspberry Pi</span>
+                <span>Home Assistant</span>
+                <span>Energy Telemetry</span>
+                <span>Cost Analytics</span>
+                <span>Automation Rules</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Award-Winning Research Paper -->
+          <article class="project-card highlight-award-card">
+            <div class="project-card-header">
+              <div class="project-meta">
+                <span class="project-year">ISPES 2025 / 2026</span>
+                <span class="project-category award-tag">★ Best Paper Award</span>
+              </div>
+              <h3 class="project-title">A Unified Framework for Smart Home Automation &amp; Energy Analytics</h3>
+            </div>
+            <div class="project-card-preview">
+              <div class="preview-box p-gradient-award">
+                <div class="preview-badge">Peer-Reviewed Paper</div>
+                <div class="preview-stat-card">
+                  <span class="p-stat-val">Matter + Modbus</span>
+                  <span class="p-stat-desc">Unified Architecture</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <p class="project-summary">
+                Authored and published groundbreaking research introducing a unified protocol architecture integrating the consumer <strong>Matter protocol</strong> with industrial <strong>Modbus</strong> communication. Solves cross-ecosystem device fragmentation while enabling granular, synchronized energy analytics and automation across smart environments.
+              </p>
+              <div class="card-tech-chips">
+                <span>Matter Protocol</span>
+                <span>Modbus RTU/TCP</span>
+                <span>Cross-Platform IoT</span>
+                <span>Energy Analytics</span>
+                <span>System Architecture</span>
+              </div>
+              <div class="card-action-row">
+                <a href="https://www.e3s-conferences.org/articles/e3sconf/abs/2026/10/e3sconf_ispes2026_01015/e3sconf_ispes2026_01015.html" target="_blank" rel="noopener noreferrer" class="project-ext-link">
+                  <span>Read Published Paper</span>
+                  <span class="arrow-up-right">↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION: 3D HORIZONTALLY SWIPEABLE STACKED CARD CAROUSEL -->
+      <section class="section skills-section" id="skills">
+        <div class="skills-carousel-header">
+          <div class="skills-header-text">
+            <div class="section-tag">Technical Competencies</div>
+            <h2 class="section-heading">Core Skills &amp; Technologies</h2>
+            <p class="section-subtext">Interactive 3D stacked deck. Drag, swipe, or use navigation arrows to explore verified engineering domains.</p>
+          </div>
+          <div class="carousel-counter-badge" id="carouselCounterBadge">
+            <span class="curr-num" id="carouselActiveNum">01</span>
+            <span class="divider">/</span>
+            <span class="total-num">04</span>
+          </div>
+        </div>
+
+        <!-- 3D Stacked Carousel Stage -->
+        <div class="skills-stacked-carousel-wrapper" id="skillsCarousel" tabIndex="0" aria-label="Skills Stacked Carousel">
+          <div class="skills-stacked-stage" id="carouselStage">
+            <!-- Card 0: Data Analytics & Cloud Systems -->
+            <article class="stacked-skill-card" data-index="0" aria-label="Skill 1: Data Analytics and Cloud Systems">
+              <div class="card-tech-topbar">
+                <div class="card-serial-tag">
+                  <span class="tag-accent">[001]</span>
+                  <span class="tag-domain">DATA &amp; CLOUD ARCHITECTURE</span>
+                </div>
+                <span class="card-status-pill">Production Scaled</span>
+              </div>
+              
+              <div class="card-title-group">
+                <div class="card-icon-emblem">📊</div>
+                <div>
+                  <h3 class="card-heading">Data Analytics &amp; Cloud Systems</h3>
+                  <p class="card-subheading">Enterprise Medallion data engineering, automated workload scheduling, and cloud cost governance.</p>
+                </div>
+              </div>
+
+              <!-- Competency Scorecard -->
+              <div class="card-scorecard-box">
+                <div class="scorecard-header">
+                  <span class="sc-title">DOMAIN COMPETENCY SCORECARD</span>
+                  <span class="sc-score-badge">OVERALL <strong>9.5 / 10</strong></span>
+                </div>
+                <div class="scorecard-list">
+                  <div class="sc-item">
+                    <div class="sc-item-meta">
+                      <span class="sc-name">Azure Medallion Architecture</span>
+                      <span class="sc-grade">9.6 / 10</span>
+                    </div>
+                    <div class="sc-bar-track"><div class="sc-bar-fill" style="width: 96%;"></div></div>
+                  </div>
+                  <div class="sc-item">
+                    <div class="sc-item-meta">
+                      <span class="sc-name">Cloud Cost Optimization</span>
+                      <span class="sc-grade">9.4 / 10</span>
+                    </div>
+                    <div class="sc-bar-track"><div class="sc-bar-fill" style="width: 94%;"></div></div>
+                  </div>
+                  <div class="sc-item">
+                    <div class="sc-item-meta">
+                      <span class="sc-name">SQL &amp; Python Automation</span>
+                      <span class="sc-grade">9.5 / 10</span>
+                    </div>
+                    <div class="sc-bar-track"><div class="sc-bar-fill" style="width: 95%;"></div></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Verified Tech Stack Chips -->
+              <div class="card-tech-chips">
+                <span class="chip-item highlight">Azure Databricks</span>
+                <span class="chip-item highlight">Medallion Architecture</span>
+                <span class="chip-item">SQL</span>
+                <span class="chip-item">Python</span>
+                <span class="chip-item">Cost Optimization</span>
+                <span class="chip-item">Workload Scheduling</span>
+                <span class="chip-item">MS Excel</span>
+                <span class="chip-item">YAML</span>
+                <span class="chip-item">Git / GitHub</span>
+              </div>
+
+              <div class="card-footer-action">
+                <span class="footer-role-label">Focus: <strong>Mu Sigma Decision Science</strong></span>
+                <a href="#experience" class="card-action-btn">
+                  <span>View Experience</span>
+                  <span class="arrow-btn-icon">→</span>
+                </a>
+              </div>
+            </article>
+
+            <!-- Card 1: Embedded Systems & Automation -->
+            <article class="stacked-skill-card" data-index="1" aria-label="Skill 2: Embedded Systems and Automation">
+              <div class="card-tech-topbar">
+                <div class="card-serial-tag">
+                  <span class="tag-accent">[002]</span>
+                  <span class="tag-domain">EMBEDDED SYSTEMS &amp; IOT</span>
+                </div>
+                <span class="card-status-pill">Hardware Tested</span>
+              </div>
+
+              <div class="card-title-group">
+                <div class="card-icon-emblem">⚡</div>
+                <div>
+                  <h3 class="card-heading">Embedded Systems &amp; Automation</h3>
+                  <p class="card-subheading">Hardware-software integration, live dual-source telemetry, and centralized home automation hubs.</p>
+                </div>
+              </div>
+
+              <!-- Competency Scorecard -->
+              <div class="card-scorecard-box">
+                <div class="scorecard-header">
+                  <span class="sc-title">DOMAIN COMPETENCY SCORECARD</span>
+                  <span class="sc-score-badge">OVERALL <strong>9.6 / 10</strong></span>
+                </div>
+                <div class="scorecard-list">
+                  <div class="sc-item">
+                    <div class="sc-item-meta">
+                      <span class="sc-name">Dual-Source Power Telemetry</span>
+                      <span class="sc-grade">9.7 / 10</span>
+                    </div>
+                    <div class="sc-bar-track"><div class="sc-bar-fill" style="width: 97%;"></div></div>
+                  </div>
+                  <div class="sc-item">
+                    <div class="sc-item-meta">
+                      <span class="sc-name">ESP32 &amp; Sensor Interfacing</span>
+                      <span class="sc-grade">9.5 / 10</span>
+                    </div>
+                    <div class="sc-bar-track"><div class="sc-bar-fill" style="width: 95%;"></div></div>
+                  </div>
+                  <div class="sc-item">
+                    <div class="sc-item-meta">
+                      <span class="sc-name">Home Assistant Rule Engine</span>
+                      <span class="sc-grade">9.6 / 10</span>
+                    </div>
+                    <div class="sc-bar-track"><div class="sc-bar-fill" style="width: 96%;"></div></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Verified Tech Stack Chips -->
+              <div class="card-tech-chips">
+                <span class="chip-item highlight">ESP32</span>
+                <span class="chip-item highlight">Raspberry Pi</span>
+                <span class="chip-item highlight">Home Assistant</span>
+                <span class="chip-item">C / Embedded C</span>
+                <span class="chip-item">Sensor Interfacing</span>
+                <span class="chip-item">Matter Protocol</span>
+                <span class="chip-item">Modbus RTU</span>
+                <span class="chip-item">MATLAB</span>
+                <span class="chip-item">NEWRRO Robotics</span>
+              </div>
+
+              <div class="card-footer-action">
+                <span class="footer-role-label">Applied at <strong>GoodEarth IoT</strong></span>
+                <a href="#projects" class="card-action-btn">
+                  <span>Explore Project</span>
+                  <span class="arrow-btn-icon">→</span>
+                </a>
+              </div>
+            </article>
+
+            <!-- Card 2: VLSI & Digital Circuit Design -->
+            <article class="stacked-skill-card" data-index="2" aria-label="Skill 3: VLSI and Digital Circuit Design">
+              <div class="card-tech-topbar">
+                <div class="card-serial-tag">
+                  <span class="tag-accent">[003]</span>
+                  <span class="tag-domain">VLSI &amp; SILICON LOGIC</span>
+                </div>
+                <span class="card-status-pill">NIELIT Certified</span>
+              </div>
+
+              <div class="card-title-group">
+                <div class="card-icon-emblem">🔬</div>
+                <div>
+                  <h3 class="card-heading">VLSI &amp; Digital Circuit Design</h3>
+                  <p class="card-subheading">Hardware description languages, timing verification, synthesis, and digital schematic layout.</p>
+                </div>
+              </div>
+
+              <!-- Competency Scorecard -->
+              <div class="card-scorecard-box">
+                <div class="scorecard-header">
+                  <span class="sc-title">DOMAIN COMPETENCY SCORECARD</span>
+                  <span class="sc-score-badge">OVERALL <strong>9.1 / 10</strong></span>
+                </div>
+                <div class="scorecard-list">
+                  <div class="sc-item">
+                    <div class="sc-item-meta">
+                      <span class="sc-name">RTL Modeling &amp; Verilog HDL</span>
+                      <span class="sc-grade">9.2 / 10</span>
+                    </div>
+                    <div class="sc-bar-track"><div class="sc-bar-fill" style="width: 92%;"></div></div>
+                  </div>
+                  <div class="sc-item">
+                    <div class="sc-item-meta">
+                      <span class="sc-name">FPGA Synthesis (Xilinx Vivado)</span>
+                      <span class="sc-grade">9.0 / 10</span>
+                    </div>
+                    <div class="sc-bar-track"><div class="sc-bar-fill" style="width: 90%;"></div></div>
+                  </div>
+                  <div class="sc-item">
+                    <div class="sc-item-meta">
+                      <span class="sc-name">Circuit Layout (Cadence Virtuoso)</span>
+                      <span class="sc-grade">9.1 / 10</span>
+                    </div>
+                    <div class="sc-bar-track"><div class="sc-bar-fill" style="width: 91%;"></div></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Verified Tech Stack Chips -->
+              <div class="card-tech-chips">
+                <span class="chip-item highlight">Verilog HDL</span>
+                <span class="chip-item highlight">SystemVerilog</span>
+                <span class="chip-item highlight">Xilinx Vivado</span>
+                <span class="chip-item">Cadence Virtuoso</span>
+                <span class="chip-item">RTL Synthesis</span>
+                <span class="chip-item">Digital Simulation</span>
+                <span class="chip-item">Timing Analysis</span>
+                <span class="chip-item">FPGA Prototyping</span>
+              </div>
+
+              <div class="card-footer-action">
+                <span class="footer-role-label">Credential: <strong>NIELIT Online</strong></span>
+                <a href="#education" class="card-action-btn">
+                  <span>View Certification</span>
+                  <span class="arrow-btn-icon">→</span>
+                </a>
+              </div>
+            </article>
+
+            <!-- Card 3: Research, Protocols & Strategic Mindset -->
+            <article class="stacked-skill-card" data-index="3" aria-label="Skill 4: Protocol Engineering and Strategic Execution">
+              <div class="card-tech-topbar">
+                <div class="card-serial-tag">
+                  <span class="tag-accent">[004]</span>
+                  <span class="tag-domain">CROSS-PROTOCOL &amp; RESEARCH</span>
+                </div>
+                <span class="card-status-pill award-glow">Best Paper Winner</span>
+              </div>
+
+              <div class="card-title-group">
+                <div class="card-icon-emblem">🏆</div>
+                <div>
+                  <h3 class="card-heading">Protocol Engineering &amp; Strategic Execution</h3>
+                  <p class="card-subheading">Matter + Modbus cross-ecosystem architecture, analytical rigor, continuous learning, and end-to-end delivery.</p>
+                </div>
+              </div>
+
+              <!-- Competency Scorecard -->
+              <div class="card-scorecard-box">
+                <div class="scorecard-header">
+                  <span class="sc-title">DOMAIN COMPETENCY SCORECARD</span>
+                  <span class="sc-score-badge">OVERALL <strong>9.7 / 10</strong></span>
+                </div>
+                <div class="scorecard-list">
+                  <div class="sc-item">
+                    <div class="sc-item-meta">
+                      <span class="sc-name">Unified Protocol Architecture</span>
+                      <span class="sc-grade">9.8 / 10</span>
+                    </div>
+                    <div class="sc-bar-track"><div class="sc-bar-fill" style="width: 98%;"></div></div>
+                  </div>
+                  <div class="sc-item">
+                    <div class="sc-item-meta">
+                      <span class="sc-name">Analytical Problem Solving</span>
+                      <span class="sc-grade">9.6 / 10</span>
+                    </div>
+                    <div class="sc-bar-track"><div class="sc-bar-fill" style="width: 96%;"></div></div>
+                  </div>
+                  <div class="sc-item">
+                    <div class="sc-item-meta">
+                      <span class="sc-name">Cross-Functional Ownership</span>
+                      <span class="sc-grade">9.7 / 10</span>
+                    </div>
+                    <div class="sc-bar-track"><div class="sc-bar-fill" style="width: 97%;"></div></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Verified Tech Stack Chips -->
+              <div class="card-tech-chips">
+                <span class="chip-item highlight">Matter Protocol</span>
+                <span class="chip-item highlight">Modbus TCP/RTU</span>
+                <span class="chip-item">Cross-Ecosystem IoT</span>
+                <span class="chip-item">System Architecture</span>
+                <span class="chip-item">Analytical Mindset</span>
+                <span class="chip-item">Technical Communication</span>
+                <span class="chip-item">Continuous Learning</span>
+              </div>
+
+              <div class="card-footer-action">
+                <span class="footer-role-label">Research: <strong>ISPES 2026</strong></span>
+                <a href="https://www.e3s-conferences.org/articles/e3sconf/abs/2026/10/e3sconf_ispes2026_01015/e3sconf_ispes2026_01015.html" target="_blank" rel="noopener noreferrer" class="card-action-btn">
+                  <span>Read Paper</span>
+                  <span class="arrow-btn-icon">↗</span>
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Stacked Navigation Side Buttons (Matching reference image with orange accent) -->
+          <div class="carousel-floating-nav">
+            <button type="button" class="stacked-nav-btn prev-btn" id="carouselPrevBtn" aria-label="Previous skill card" title="Previous Card">
+              <span>←</span>
+            </button>
+            <button type="button" class="stacked-nav-btn next-btn" id="carouselNextBtn" aria-label="Next skill card" title="Next Card">
+              <span>→</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Bottom Dot Indicator & Gesture Hint -->
+        <div class="carousel-footer-bar">
+          <div class="carousel-swipe-hint">
+            <span class="hint-icon">↔</span>
+            <span>Drag or swipe cards horizontally to explore</span>
+          </div>
+          <div class="carousel-pagination-dots" id="carouselDots">
+            <button type="button" class="dot-indicator active" data-index="0" aria-label="Go to skill 1"></button>
+            <button type="button" class="dot-indicator" data-index="1" aria-label="Go to skill 2"></button>
+            <button type="button" class="dot-indicator" data-index="2" aria-label="Go to skill 3"></button>
+            <button type="button" class="dot-indicator" data-index="3" aria-label="Go to skill 4"></button>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION & ACHIEVEMENTS SECTION -->
+      <section class="section education-section" id="education">
+        <div class="section-header">
+          <div class="section-tag">Credentials &amp; Milestones</div>
+          <h2 class="section-heading">Education, Awards &amp; Certifications</h2>
+          <p class="section-subtext">Academic foundations, peer-reviewed honors, and specialized credentials.</p>
+        </div>
+
+        <div class="edu-awards-wrapper">
+          <!-- Education Column -->
+          <div class="edu-column">
+            <h3 class="col-title">Academic Background</h3>
+            <div class="edu-card main-degree">
+              <div class="edu-badge-row">
+                <span class="edu-degree-tag">Bachelor of Engineering (B.E.)</span>
+                <span class="edu-score-badge">CGPA: 7.96</span>
+              </div>
+              <h4 class="edu-institution">Sir M Visvesvaraya Institute of Technology, Bengaluru</h4>
+              <p class="edu-major">Electronics and Communication Engineering</p>
+              <span class="edu-duration">Dec 2022 – May 2026</span>
+            </div>
+
+            <div class="edu-card">
+              <div class="edu-badge-row">
+                <span class="edu-degree-tag">Pre-University (Class XII)</span>
+                <span class="edu-score-badge">CBSE: 85.4%</span>
+              </div>
+              <h4 class="edu-institution">Sri Chaithanya Techno School, Bengaluru</h4>
+              <p class="edu-major">PCMC (Physics, Chemistry, Mathematics, Computer Science)</p>
+              <span class="edu-duration">2020 – 2022</span>
+            </div>
+
+            <div class="edu-card">
+              <div class="edu-badge-row">
+                <span class="edu-degree-tag">Secondary Education (Class X)</span>
+                <span class="edu-score-badge">CBSE: 86.8%</span>
+              </div>
+              <h4 class="edu-institution">Delhi Public School, Bengaluru</h4>
+              <span class="edu-duration">2010 – 2020</span>
+            </div>
+          </div>
+
+          <!-- Awards & Certifications Column -->
+          <div class="awards-column">
+            <h3 class="col-title">Honors &amp; Certifications</h3>
+            
+            <!-- Best Paper Award Card -->
+            <div class="award-featured-box">
+              <div class="award-icon-crown">🏆</div>
+              <div class="award-content">
+                <span class="award-year-tag">Best Paper Award · 2026</span>
+                <h4>A Unified Framework for Smart Home Automation &amp; Energy Analytics through Matter and Modbus Integration</h4>
+                <p class="award-conference">Presented at ISPES 2025 / 2026</p>
+                <p class="award-desc">Recognized for novel integration of Matter protocol and Modbus to enable cross-platform interoperability and industrial-precision energy monitoring.</p>
+                <a href="https://www.e3s-conferences.org/articles/e3sconf/abs/2026/10/e3sconf_ispes2026_01015/e3sconf_ispes2026_01015.html" target="_blank" rel="noopener noreferrer" class="award-paper-direct-link">
+                  <span>Read Paper at E3S Web of Conferences</span>
+                  <span class="arrow-up-right">↗</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="cert-item-card">
+              <div class="cert-icon">📜</div>
+              <div class="cert-details">
+                <h4>NIELIT Online Certification – VLSI Design</h4>
+                <p class="cert-issuer">National Institute of Electronics &amp; Information Technology (NIELIT)</p>
+                <span class="cert-date">Sep 2024</span>
+              </div>
+            </div>
+
+            <div class="cert-item-card">
+              <div class="cert-icon">🤖</div>
+              <div class="cert-details">
+                <h4>ESP32 Robotics Workshop</h4>
+                <p class="cert-issuer">NEWRRO Robotics &amp; Automation</p>
+                <span class="cert-date">Nov 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer" id="contact">
+      <!-- Background Geometric Wireframe Shapes (Recreated from reference) -->
+      <div class="footer-bg-wireframe" aria-hidden="true">
+        <div class="geom-box geom-box-1"></div>
+        <div class="geom-box geom-box-2"></div>
+        <div class="geom-box geom-box-3"></div>
+        <div class="geom-box geom-box-center"></div>
+        <div class="geom-box geom-box-4"></div>
+        <div class="geom-box geom-box-5"></div>
+        <div class="geom-box geom-box-6"></div>
+        <div class="geom-line geom-line-top"></div>
+        <div class="geom-line geom-line-bottom"></div>
+      </div>
+
+      <div class="footer-top">
+        <div class="footer-cta">
+          <h2>Ready to drive data-driven impact?<br>Let's connect and build.</h2>
+          <div class="footer-action-buttons">
+            <a href="assets/Abhilash_G_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn-resume-footer">
+              <span>View Resume (PDF)</span>
+              <span class="arrow-up-right">↗</span>
+            </a>
+            <button class="btn-book-call footer-book-btn" id="footerBookBtn">
+              <span>Send Message</span>
+              <span class="arrow-up-right">↗</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-brand">
+          <span class="footer-author-name">Abhilash G</span>
+          <span class="footer-dot">·</span>
+          <span>Trainee Decision Scientist &amp; ECE Engineer</span>
+          <span class="footer-dot">·</span>
+          <span>Bengaluru, Karnataka</span>
+        </div>
+        <div class="footer-socials">
+          <a href="https://github.com/abhilash2327" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub Profile">GitHub</a>
+          <a href="https://linkedin.com/in/abhilash-g-6176a125a" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a>
+          <a href="mailto:abhilashg.hdp@gmail.com" class="social-link" title="Send Email">Email</a>
+          <a href="tel:+917022231662" class="social-link" title="Call Phone">+91 7022231662</a>
+          <a href="assets/Abhilash_G_Resume.pdf" target="_blank" rel="noopener noreferrer" class="social-link">Resume PDF</a>
+        </div>
+        <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+      </div>
+    </footer>
+  </div>
+
+  <!-- CONTACT & COLLABORATION MODAL -->
+  <div class="modal-overlay" id="bookCallModal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="closeModalBtn" aria-label="Close dialog">✕</button>
+      <div class="modal-header">
+        <span class="modal-tag">Get In Touch</span>
+        <h3 id="modalTitle">Connect with Abhilash G</h3>
+        <p>Whether you have an opportunity in Decision Science, Cloud Analytics, or IoT Engineering, I would love to connect.</p>
+      </div>
+
+      <!-- Quick Contact Badges -->
+      <div class="modal-contact-details">
+        <div class="modal-info-tile">
+          <span class="tile-icon">🐙</span>
+          <div class="tile-text">
+            <span class="tile-label">GitHub</span>
+            <a href="https://github.com/abhilash2327" target="_blank" rel="noopener noreferrer" class="tile-val">github.com/abhilash2327 ↗</a>
+          </div>
+          <button class="btn-copy-chip" onclick="window.copyToClipboard('https://github.com/abhilash2327', this)" title="Copy GitHub URL">Copy</button>
+        </div>
+        <div class="modal-info-tile">
+          <span class="tile-icon">💼</span>
+          <div class="tile-text">
+            <span class="tile-label">LinkedIn</span>
+            <a href="https://linkedin.com/in/abhilash-g-6176a125a" target="_blank" rel="noopener noreferrer" class="tile-val">linkedin.com/in/abhilash-g-6176a125a ↗</a>
+          </div>
+        </div>
+        <div class="modal-info-tile">
+          <span class="tile-icon">📧</span>
+          <div class="tile-text">
+            <span class="tile-label">Email</span>
+            <a href="mailto:abhilashg.hdp@gmail.com" class="tile-val">abhilashg.hdp@gmail.com</a>
+          </div>
+          <button class="btn-copy-chip" onclick="window.copyToClipboard('abhilashg.hdp@gmail.com', this)" title="Copy email">Copy</button>
+        </div>
+        <div class="modal-info-tile">
+          <span class="tile-icon">📱</span>
+          <div class="tile-text">
+            <span class="tile-label">Phone</span>
+            <a href="tel:+917022231662" class="tile-val">+91 7022231662</a>
+          </div>
+          <button class="btn-copy-chip" onclick="window.copyToClipboard('+917022231662', this)" title="Copy phone">Copy</button>
+        </div>
+      </div>
+
+      <form class="modal-form" id="bookingForm" onsubmit="event.preventDefault(); window.handleBookingSubmit();">
+        <div class="form-group">
+          <label for="clientName">Your Name / Organization</label>
+          <input type="text" id="clientName" placeholder="e.g. Talent Acquisition / Engineering Manager" required>
+        </div>
+        <div class="form-group">
+          <label for="clientEmail">Your Contact Email</label>
+          <input type="email" id="clientEmail" placeholder="recruiter@company.com" required>
+        </div>
+        <div class="form-group">
+          <label for="projectType">Discussion Topic</label>
+          <select id="projectType">
+            <option>Decision Science / Data Analytics Opportunity</option>
+            <option>Cloud Data Engineering / Azure Databricks</option>
+            <option>IoT, Embedded Systems &amp; Automation Project</option>
+            <option>Research Collaboration / General Inquiry</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="projectNotes">Message Brief</label>
+          <textarea id="projectNotes" rows="3" placeholder="Share job description, project details, or questions..."></textarea>
+        </div>
+        <div class="modal-actions-row">
+          <button type="submit" class="btn-submit-booking">
+            <span>Send Message</span>
+            <span class="arrow-up-right">↗</span>
+          </button>
+          <a href="assets/Abhilash_G_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn-download-resume-modal">
+            <span>Download Resume</span>
+            <span>📄</span>
+          </a>
+        </div>
+      </form>
+      <div class="booking-success" id="bookingSuccessMsg" style="display: none;">
+        <div class="success-icon">✓</div>
+        <h4>Message Dispatched</h4>
+        <p>Thank you for reaching out! Opening your default mail client to confirm delivery.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
